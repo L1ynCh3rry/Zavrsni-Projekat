@@ -1,1 +1,67 @@
-
+*{
+    font-family: 'Indie Flower', cursive;
+}
+.row{
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+.leftSiteSide .fa{
+    font-size: 30px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.rayhanSection{
+    position: relative;
+}
+.rayhanSection .rayhan{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.rayhanSection .rayhan h2,
+.rayhanSection .rayhan h3{
+    color: white;
+}
+.row.personInfo{
+    padding-top: 20px;
+}
+.row.personInfo p{
+    margin-bottom: 0 !important;
+}
+.font14{
+    font-size: 14px;
+}
+.font22{
+    font-size: 24px;
+}
+.skillz .fa{
+    font-size: 16px!important;
+}
+.skill{
+    position: relative;
+    height: 5px;
+    border-radius: 3px;
+    background: #ccc !important;
+}
+.skill .achieviment{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white;
+    width: 60%;
+    height: 5px;
+    border-radius: 3px;
+}
+.skill .achieviment span{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    right: -7px;
+    top: -4.5px;
+}

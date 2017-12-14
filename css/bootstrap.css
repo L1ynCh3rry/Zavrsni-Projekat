@@ -5327,19 +5327,19 @@ a.bg-info:focus, a.bg-info:hover {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #fff600 !important;
 }
 
 a.bg-warning:focus, a.bg-warning:hover {
-  background-color: #d39e00 !important;
+  background-color: #fff600 !important;
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #961313 !important;
 }
 
 a.bg-danger:focus, a.bg-danger:hover {
-  background-color: #bd2130 !important;
+  background-color: #961313 !important;
 }
 
 .bg-light {
