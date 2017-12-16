@@ -1,12 +1,47 @@
-
+@media(min-width:320px){
+ .rayhan h2{
+    font-size: 1.55rem;
+}
+.rayhan h3{
+    font-size: 1.15rem;
+}
+ .rayhanSection .rayhan{
+    left: 45%;
+}   
+    
+}
 @media(min-width:576px){
- 
+ .rayhan h2{
+    font-size: 2.00rem;
+}
+.rayhan h3{
+    font-size: 1.85rem;
+}
+ .rayhanSection .rayhan{
+     top: 70%;
+    left: 55%;
+}
+.interests .fa{
+    font-size: 40px !important;
+}
     
     
 }
 
 @media(min-width:768px){
- 
+    .rayhan h2{
+    font-size: 2.75rem;
+}
+.rayhan h3{
+    font-size: 1.35rem;
+}
+.rayhanSection .rayhan{
+    top: 80%;
+    left: 60%;
+}
+.interests .fa{
+    font-size: 50px !important;
+}
     
     
 }
@@ -15,13 +50,34 @@
 
 
 @media(min-width:992px){
-   
+       .rayhan h2{
+    font-size: 2.15rem;
+}
+.rayhan h3{
+    font-size: 0.85rem;
+}
+.rayhanSection .rayhan{
+    top: 70%;
+    left: 45%;
+}
+.interests .fa{
+    font-size: 50px !important;
+}
     
     
 }
 
 @media(min-width:1200px){
-   
+         .rayhan h2{
+    font-size: 2.55rem;
+}
+.rayhan h3{
+    font-size: 1.45rem;
+}
+.rayhanSection .rayhan{
+    top: 70%;
+    left: 45%;
+} 
     
     
 }

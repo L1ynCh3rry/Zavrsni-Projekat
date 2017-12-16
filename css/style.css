@@ -7,7 +7,9 @@
 img{
     width: 100%;
 }
-.leftSiteSide .fa{
+
+.leftSiteSide .fa,
+.rightSiteSide .fa{
     font-size: 30px;
 }
 .nopadding {
@@ -20,7 +22,13 @@ img{
 .rayhanSection .rayhan{
     position: absolute;
     top: 70%;
-    left: 35%;
+    left: 55%;
+}
+.rayhan h2{
+    font-size: 1.25rem;
+}
+.rayhan h3{
+    font-size: 0.75rem;
 }
 .rayhanSection .rayhan h2,
 .rayhanSection .rayhan h3{
@@ -64,4 +72,16 @@ img{
     background: white;
     right: -7px;
     top: -4.5px;
+}
+
+
+/*---------- RIGHT SITE SIDE -----------*/
+.rightSiteSide{
+    margin: 40px 40px 45px;
+}
+.interests .fa{
+    font-size: 20px !important;
+}
+.lightblue{
+    color: #38a4dd !important;
 }
