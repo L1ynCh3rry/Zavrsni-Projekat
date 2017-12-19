@@ -18,6 +18,7 @@
 
         <!-- GOOGLE FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
 
 
 
@@ -34,16 +35,34 @@
 
     <body>
 
-
+        <nav class="menu">
+            <ul class="side-menu list-unstyled">
+                <li><a href="#">NASLOVNA</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">LETTER</a></li>
+            </ul>
+        </nav>
+        <div class="menu-overlay">
+            
+        </div>
+        
+        
+        
+        
         <div class="container">
 
             <div class="row justify-content-around">
                 <!-- LEFT SITE SIDE -->
-                <div class="col-10 col-lg-4 bg-danger nopadding">
+                <div class="col-10 col-lg-4 bg-danger nopadding positionR">
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <section class="leftSiteSide">
                         <!-- PICTURE -->
                         <section class="rayhanSection">
-                            <figure>
+                            <figure class="mb-0">
                                 <img src="img/rayhan.png" alt=""/>
                             </figure>
                             <div class="rayhan">
@@ -53,7 +72,7 @@
                         </section> <!-- PICTURE END -->
 
                         <!-- FIRST ROW -->
-                        <div class="row pt-5 text-white no-gutters">
+                        <div class="row pt-5 text-white no-gutters insetsb">
                             <div class="col-3 text-center">
                                 <span class="fa fa-user-o"></span>
                             </div>
@@ -62,12 +81,12 @@
                                     elit, sed do eiusmod tempor incididunt ut labor 
                                     et dolore magna aliqua. Ut enim ad minim veniamnt
                                     in culpa quie officia deserunt mollit.</p>
-                                <br><hr>
+                                <br><br>
                             </div>
                         </div>
 
                         <!-- SECOND ROW -->
-                        <div class="row personInfo pt-4 text-white no-gutters">
+                        <div class="row personInfo pt-4 text-white no-gutters insetsb">
                             <div class="col-3 text-center">
                                 <span class="fa fa-phone"></span>
                             </div>
@@ -76,12 +95,12 @@
                                 <p>Mobile</p>
                                 <p class="font22">(880) 1771-299299</p>
                                 <p>Work</p>
-                                <br><hr>
+                                <br><br>
                             </div>
                         </div>
 
                         <!-- THIRD ROW -->
-                        <div class="row personInfo pt-4 text-white no-gutters">
+                        <div class="row personInfo pt-4 text-white no-gutters insetsb">
                             <div class="col-3 text-center">
                                 <span class="fa fa-envelope"></span>
                             </div>
@@ -90,12 +109,12 @@
                                 <p>Mobile</p>
                                 <p class="font22">ar@deviserweb.com</p>
                                 <p>Work</p>
-                                <br><hr>
+                                <br><br>
                             </div>
                         </div>
 
                         <!-- 4TH ROW -->
-                        <div class="row personInfo pt-4 text-white no-gutters">
+                        <div class="row personInfo pt-4 text-white no-gutters insetsb">
                             <div class="col-3 text-center">
                                 <span class="fa fa-map-o"></span>
                             </div>
@@ -103,12 +122,12 @@
                                 <p class="font22">24 Golden Tower <sup>(2nd floor)</sup></p>
                                 <p class="font22">Amberkhana, Sylhet</p>
                                 <p>SYL-3RF87W</p>
-                                <br><hr>
+                                <br><br>
                             </div>
                         </div>
 
                         <!-- 5TH ROW -->
-                        <div class="row personInfo pt-4 text-white no-gutters">
+                        <div class="row personInfo pt-4 text-white no-gutters insetsb">
                             <div class="col-3 text-center">
                                 <span class="fa fa-calendar-o"></span>
                             </div>
@@ -138,7 +157,7 @@
                                         <span></span>
                                     </div>
                                 </div>
-                                <br><br><br><hr>
+                                <br><br><br><br>
                             </div>
                         </div>
 
@@ -156,28 +175,28 @@
                     <article class="rightSiteSide">
 
                         <!-- WORK EXPERIENCES PART -->
-                        <div class="row pt-5 pb-4 no-gutters bg-white">
-                            <div class="col-2 text-center">
+                        <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4 no-gutters bg-white boxshadow">
+                            <div class="col-3 col-sm-2 text-center">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-check fa-stack-1x" style="margin-left:4px"></i>
                                     <i class="fa fa-check fa-inverse fa-stack-1x" style="margin-left:-3px;"></i>
                                     <i class="fa fa-check  fa-stack-1x" style="margin-left:-4px"></i>
                                 </span>
                             </div>
-                            <div class="col-10 pr-4 font14">
-                                <h2>Work Experiences</h2>
-                                <h3>UI &AMP; WEB DESIGNER @Academy</h3>
-                                <p class="lightblue">JAN 2013 - DEC 2014</p>
+                            <div class="col-9 col-sm-10 pr-2 pr-lg-4 font14">
+                                <h2 class="h2respo">Work Experiences</h2>
+                                <h3 class="h3respo">UI &AMP; WEB DESIGNER @Academy</h3>
+                                <p class="redtext borderbottomlink">JAN 2013 - DEC 2014</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli, sed do eiusmod 
                                     tempor incididunt ut labore et dolore magna aliqua</p>
                                 <hr>
-                                <h3>Creative Director @DeviserWeb</h3>
-                                <p class="lightblue">MAR 2012 - DEC 2013</p>
+                                <h3 class="h3respo">Creative Director @DeviserWeb</h3>
+                                <p class="redtext borderbottomlink">MAR 2012 - DEC 2013</p>
                                 <p>Lorem ipsum dolor sit amet, consecterum adipiscing elit, sed do eiusmod
                                     dolore magna aliqua. Ut enim ad quis nostrud exercitation</p>
                                 <hr>
-                                <h3>Graphic Designer @CreativeWold</h3>
-                                <p class="lightblue">JAN 2009 - DEC 2011</p>
+                                <h3 class="h3respo">Graphic Designer @CreativeWold</h3>
+                                <p class="redtext borderbottomlink">JAN 2009 - DEC 2011</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                             </div>
@@ -185,24 +204,24 @@
 
 
                         <!-- EDUCATION PART -->
-                        <div class="row pt-5 pb-4 mt-4 no-gutters bg-white">
-                            <div class="col-2 text-center">
+                        <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4 mt-2 mt-lg-4 no-gutters bg-white boxshadow">
+                            <div class="col-3 col-sm-2 text-center">
                                 <span class="fa fa-graduation-cap"></span>
                             </div>
-                            <div class="col-10 pr-4 font14">
-                                <h2>Education</h2>
-                                <h3>Art &AMP; Multimedia @Lorem University</h3>
-                                <p class="lightblue">JAN 2013 - DEC 2014</p>
+                            <div class="col-9 col-sm-10 pr-2 pr-lg-4 font14">
+                                <h2 class="h2respo">Education</h2>
+                                <h3 class="h3respo">Art &AMP; Multimedia @Lorem University</h3>
+                                <p class="redtext borderbottomlink">JAN 2013 - DEC 2014</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli, sed do eiusmod 
                                     tempor incididunt ut labore et dolore magna aliqua</p>
                                 <hr>
-                                <h3>Post Graduate @Lorem High School</h3>
-                                <p class="lightblue">MAR 2012 - DEC 2013</p>
+                                <h3 class="h3respo">Post Graduate @Lorem High School</h3>
+                                <p class="redtext borderbottomlink">MAR 2012 - DEC 2013</p>
                                 <p>Lorem ipsum dolor sit amet, consecterum adipiscing elit, sed do eiusmod
                                     dolore magna aliqua. Ut enim ad quis nostrud exercitation</p>
                                 <hr>
-                                <h3>TTMP Degree @Creative School</h3>
-                                <p class="lightblue">JAN 2009 - DEC 2011</p>
+                                <h3 class="h3respo">TTMP Degree @Creative School</h3>
+                                <p class="redtext borderbottomlink">JAN 2009 - DEC 2011</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                             </div>
@@ -210,26 +229,26 @@
 
 
                         <!-- INTERESTS -->
-                        <div class="row pt-5 pb-4 mt-4 no-gutters bg-white">
-                            <div class="col-2 text-center">
+                        <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4 mt-2 mt-lg-4 no-gutters bg-white boxshadow">
+                            <div class="col-3 col-sm-2 text-center">
                                 <span class="fa fa-pinterest-p "></span>
                             </div>
-                            <div class="col-10 pr-4 font14">
-                                <h2>Interests</h2>
+                            <div class="col-9 col-sm-10 pr-4 font14">
+                                <h2 class="h2respo">Interests</h2>
                                 <div class="row no-gutters interests justify-content-between pt-3">
-                                    <div class="col-2"><a href="#"><span class="fa fa-music lightblue"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-birthday-cake lightblue"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-plane lightblue"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-dribbble lightblue"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-pencil lightblue"></span></a></div>
+                                    <div class="col-2"><a href="#"><span class="fa fa-music redtext"></span></a></div>
+                                    <div class="col-2"><a href="#"><span class="fa fa-birthday-cake redtext"></span></a></div>
+                                    <div class="col-2"><a href="#"><span class="fa fa-plane redtext"></span></a></div>
+                                    <div class="col-2"><a href="#"><span class="fa fa-dribbble redtext"></span></a></div>
+                                    <div class="col-2"><a href="#"><span class="fa fa-pencil redtext"></span></a></div>
                                 </div>
                             </div>
                         </div>
                         
                         <!-- FOOTER -->
-                        <div class="row pt-5 pb-4 mt-4 no-gutters bg-white justify-content-around">
-                            <div class="col-8 col-md-4"><a href="#"><p class="lightblue">www.alrayhan.com</p></a></div>
-                            <div class="col-8 col-md-4"><a href="#"><p class="lightblue">dribbble.com/rtralrayhan</p></a></div>
+                        <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4 mt-2 mt-lg-4 no-gutters bg-white justify-content-around boxshadow">
+                            <div class="col-8 col-md-4"><a href="#"><p class="borderbottomlink redtext">www.alrayhan.com</p></a></div>
+                            <div class="col-8 col-md-4"><a href="#"><p class="borderbottomlink redtext">dribbble.com/rtralrayhan</p></a></div>
                         </div>
 
                     </article>
