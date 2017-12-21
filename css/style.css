@@ -70,9 +70,10 @@ a:hover{
     left: 0;
     top: 0;
     background: white;
-    width: 60%;
+    width: 0%;
     height: 5px;
     border-radius: 3px;
+    transition: 1s linear;
 }
 .skill .achieviment span{
     position: absolute;
@@ -94,6 +95,7 @@ a:hover{
     left: 20px;
     z-index: 10;
     border-radius: 2px;
+    background: rgba(0,0,0,0.7);
 }
 .toggle-menu span{
     display: block;
@@ -129,7 +131,7 @@ a:hover{
     height: 100vh;
     background: #961313;
     padding: 10px;
-    min-width: 200px;
+    min-width: 300px;
 }
 .menu .side-menu a{
     display: block;
@@ -182,12 +184,25 @@ a:hover{
 }
 
 
+.masonry{
+    position: relative;
+}
+.figurenomargin{
+    margin-bottom: 0px!important;
+}
 
 
 
 
+/* ------------ MAP ------------ */
+#map_wrapper {
+    height: 400px;
+}
 
-
+#map {
+    width: 100%;
+    height: 100%;
+}
 
 
 /* R----------- RESPONSIVE ---------- */

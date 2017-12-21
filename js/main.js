@@ -14,6 +14,23 @@
             });
             
             
+            function skill(){
+                var win = $(window).innerHeight();
+                var scroll = $(window).scrollTop();
+                $('.skill').each(function(){
+                    var position = $(this).offset().top;
+                    var value = $(this).attr('data-skill');
+                    if(position < win + scroll - 10){
+                        $(this).find('.achieviment').css('width', value + '%');
+                    }
+                });
+            }
+            skill();
+            $(window).scroll(function(){
+                skill();
+            });
+            
+            
             
             
             
