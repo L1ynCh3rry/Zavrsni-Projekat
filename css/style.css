@@ -184,13 +184,15 @@ a:hover{
 }
 
 
-.masonry{
+.masonery{
     position: relative;
 }
 .figurenomargin{
     margin-bottom: 0px!important;
 }
-
+.width100 img{
+    width: 100%;
+}
 
 
 
