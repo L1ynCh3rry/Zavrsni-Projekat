@@ -43,7 +43,7 @@
                 <li><a href="letter.html">LETTER</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="single.html">SINGLE</a></li>
-<!--                <li><div class="hoverbg"></div></li>-->
+                <!--                <li><div class="hoverbg"></div></li>-->
             </ul>
         </nav>
         <div class="menu-overlay">
@@ -189,9 +189,8 @@
 
                                     <script>
 
-                                        // This example displays a marker at the center of Australia.
+                                        // Map .
                                         // When the user clicks the marker, an info window opens.
-
                                         function initMap() {
                                             var uluru1 = {lat: 44.431937, lng: 20.877588};
 
@@ -199,7 +198,6 @@
                                                 zoom: 16,
                                                 center: uluru1
                                             });
-
                                             var contentString1 = '<div id="content" class="text-center">' +
                                                     '<img  class="img-fluid" style="max-width:260px" src="img/rayhan.png"></img>' +
                                                     '<div id="bodyContent">' +
@@ -208,11 +206,9 @@
                                                     '<p>Tel:061-14-34-117</p>' +
                                                     '</div>' +
                                                     '</div>';
-
                                             var infowindow1 = new google.maps.InfoWindow({
                                                 content: contentString1
                                             });
-
                                             var marker1 = new google.maps.Marker({
                                                 position: uluru1,
                                                 map: map,
@@ -222,12 +218,7 @@
                                             marker1.addListener('click', function () {
                                                 infowindow1.open(map, marker1);
                                             });
-
-
-
                                             marker1.addListener('click', toggleBounce);
-
-
                                         }
                                         function toggleBounce() {
                                             if (marker1.getAnimation() !== null) {
@@ -236,12 +227,6 @@
                                                 marker1.setAnimation(google.maps.Animation.BOUNCE);
                                             }
                                         }
-
-
-
-
-
-
                                     </script>
                                     <script async defer
                                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXhSeCPjCui_heaEZGtuU7Nq4ISe3RzCs&callback=initMap&scrollwheel=false">
@@ -254,42 +239,39 @@
                         <!-- EDUCATION PART -->
                         <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4 mt-2 mt-lg-4 no-gutters bg-white boxshadow">
                             <div class="col-3 col-sm-2 text-center">
-                                <span class="fa fa-graduation-cap"></span>
+                                <span class="fa fa-paper-plane-o "></span>
                             </div>
                             <div class="col-9 col-sm-10 pr-2 pr-lg-4 font14">
-                                <h2 class="h2respo">Education</h2>
-                                <h3 class="h3respo">Art &AMP; Multimedia @Lorem University</h3>
-                                <p class="redtext borderbottomlink">JAN 2013 - DEC 2014</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli, sed do eiusmod 
-                                    tempor incididunt ut labore et dolore magna aliqua</p>
-                                <hr>
-                                <h3 class="h3respo">Post Graduate @Lorem High School</h3>
-                                <p class="redtext borderbottomlink">MAR 2012 - DEC 2013</p>
-                                <p>Lorem ipsum dolor sit amet, consecterum adipiscing elit, sed do eiusmod
-                                    dolore magna aliqua. Ut enim ad quis nostrud exercitation</p>
-                                <hr>
-                                <h3 class="h3respo">TTMP Degree @Creative School</h3>
-                                <p class="redtext borderbottomlink">JAN 2009 - DEC 2011</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                        </div>
-
-
-                        <!-- INTERESTS -->
-                        <div class="row pt-3 pt-lg-5 pb-2 pb-lg-4 mt-2 mt-lg-4 no-gutters bg-white boxshadow">
-                            <div class="col-3 col-sm-2 text-center">
-                                <span class="fa fa-pinterest-p "></span>
-                            </div>
-                            <div class="col-9 col-sm-10 pr-4 font14">
-                                <h2 class="h2respo">Interests</h2>
-                                <div class="row no-gutters interests justify-content-between pt-3">
-                                    <div class="col-2"><a href="#"><span class="fa fa-music redtext"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-birthday-cake redtext"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-plane redtext"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-dribbble redtext"></span></a></div>
-                                    <div class="col-2"><a href="#"><span class="fa fa-pencil redtext"></span></a></div>
+                                <h2 class="h2respo">Contact</h2>
+                                <div class="row mt-5">
+                                    <div class="col-11">
+                                        
+                                        
+                                        
+                                        <!----------------- CONTACT FORM -------------------->
+                                        <form class="form-contact" method="post" action="">
+                                            <div class="form-group">
+                                                <label>Name*</label>
+                                                <input name="name" value="" class="form-control">
+                                                <div class="error"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Email*</label>
+                                                <input name="email" value="" class="form-control" >
+                                                <div class="error"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Message*</label>
+                                                <textarea name="message" class="form-control"></textarea>
+                                                <div class="error"></div>
+                                            </div>
+                                            <button type="submit" class="btn">SUBMIT</button>
+                                        </form>
+                                    </div>
                                 </div>
+
+
+
                             </div>
                         </div>
 
@@ -313,6 +295,61 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/main.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(function () {
+                    $(".form-contact").validate({
+                        highlight: function (element) {
+                            $(element).closest('.form-group').addClass("has-danger");
+                            $(element).addClass("form-control-danger");
+                        },
+                        unhighlight: function (element) {
+                            $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
+                            $(element).removeClass('form-control-danger').addClass('form-control-success');
+                        },
+                        rules: {
+                            name: {
+                                required: true,
+                                rangelength: [3, 255]
+                            },
+                            email: {
+                                required: true,
+                                rangelength: [5, 255],
+                                email: true
+                            },
+                            message: {
+                                required: true,
+                                rangelength: [10, 255]
+                            }
+
+                        },
+                        messages: {
+                            name: {
+                                required: "The *Name field is required!",
+                                rangelength: "The *Name must be between 3 and 255 characters!"
+                            },
+                            email: {
+                                required: "The *Email field is required!",
+                                rangelength: "The *Email must be between 5 and 255 characters!",
+                                email: "Please enter a valid email addres!"
+                            },
+                            message: {
+                                required: "The *Message field is required!",
+                                rangelength: "The *Message must be between 10 and 255 characters!",
+                                email: "Please enter a valid message!"
+                            }
+                        },
+                        errorElement: 'p',
+                        errorPlacement: function (error, element) {
+                            error.appendTo($(element).closest('.form-group').find('.error'));
+                        }
+
+                    });
+                });
+            });
+            //Form Validation
+        </script>
     </body>
 
 </html>
