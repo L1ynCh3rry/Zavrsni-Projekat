@@ -17,12 +17,15 @@
 
 
         <!-- GOOGLE FONTS -->
+        <link href="css/hover-min.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
 
 
 
         <!-- CSS -->
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="css/hover-min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/responsive.css" rel="stylesheet" type="text/css" />
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,13 +39,13 @@
     <body>
 
         <nav class="menu">
-            <ul class="side-menu list-unstyled">
-                <li><a href="index.html">NASLOVNA</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="letter.html">LETTER</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="single.html">SINGLE</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
+            <ul class="side-menu list-unstyled bg-gradient">
+                <li><a href="index.html" class="mt-1 hvr-icon-forward">NASLOVNA</a></li>
+                <li><a href="portfolio.html" class="hvr-icon-forward">PORTFOLIO</a></li>
+                <li><a href="letter.html" class="hvr-icon-forward">LETTER</a></li>
+                <li><a href="contact.html" class="hvr-icon-forward">CONTACT</a></li>
+                <li><a href="single.html" class="hvr-icon-forward">SINGLE</a></li>
+                <li><a href="#" class="hvr-icon-sink-away">GALLERY</a></li>
             </ul>
         </nav>
         <div class="menu-overlay">
@@ -56,8 +59,8 @@
 
             <div class="row justify-content-around">
                 <!-- LEFT SITE SIDE -->
-                <div class="col-10 col-lg-4 bg-danger nopadding positionR">
-                    <div class="toggle-menu">
+                <div class="col-10 col-lg-4 bg-gradient3 nopadding positionR">
+                    <div class="toggle-menu bg-gradient3">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -181,194 +184,159 @@
                         <div class='row'>
 
 
-                            <!----------------- FIRST PICTURE ------------------->
-                            <div class="col-12 col-lg-6">
-                                <article>
-                                    <div class='myImgHover'>
-
-                                        <a href="#" class="pop">
-                                            <img src="http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg" style="width: 400px; height: 264px;">
-                                        </a>
-                                        <div class="overlay">
-                                            <h2 class='mb-0'>Creative Design</h2>
-                                        </div>
+                            <!--------------- FIRST PICTURE ---------------------->
+                            <div class="col-12 col-lg-6 mt-4 mt-lg-0 jackInTheBox animated">
+                                <div class='myImgHover'>
+                                    <img class="myImg" src="img/galleryphoto1.jpg" alt="Lorem ipsum" >
+                                    <div class="overlay">
+                                        <h2 class='mb-0'>Autumn</h2>
+                                        <p class='mb-0'>Autumn, also known as fall in American and Canadian English,
+                                             is one of the four temperate seasons. Autumn marks the transition
+                                            from summer to winter, in September (Northern Hemisphere)
+                                            or March (Southern Hemisphere),</p>
                                     </div>
-                                    <!-- The Modal -->
-                                    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" data-dismiss="modal">
-                                            <div class="modal-content"  >              
-                                                <div class="modal-body">
-                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                    <img src="" class="imagepreview" style="width: 100%;" >
-                                                </div> 
-                                                <div class="modal-footer">
-                                                    <div class="col-xs-12">
-                                                        <p class="text-left">1. line of description<br>2. line of description <br>3. line of description</p>
-
-                                                    </div>
-
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
+                                </div>
                             </div>
 
 
 
 
                             <!----------------- 2 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                            <div class="col-12 col-lg-6 mt-4 mt-lg-0 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto2.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto2.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Nest</h2>
+                                        <p class='mb-0'>A nest is a structure built by certain animals to hold eggs,
+                                            offspring, and, occasionally, the animal itself. Although nests are most 
+                                            closely associated with birds, members of all classes of vertebrates and 
+                                            some invertebrates construct nests.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
 
                             <!----------------- 3 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto3.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto3.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Flowers</h2>
+                                        <p class='mb-0'>A flower, sometimes known as a bloom or blossom,
+                                            is the reproductive structure found in flowering plants (plants of the
+                                            division Magnoliophyta, also called angiosperms). The biological 
+                                            function of a flower is to effect reproduction, usually by providing 
+                                            a mechanism for the union of sperm with eggs.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 4 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto4.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto4.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Merry-Go-Round</h2>
+                                        <p class='mb-0'>Merry-Go-Round was a national clothing retail chain 
+                                            owned by Merry-Go-Round Enterprises, Inc., that thrived from the 
+                                            1970s through the early 1990s. The chain fell into bankruptcy during 
+                                            the mid 1990s, and eventually ceased operation in 1996.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 5 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto5.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto5.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Birds</h2>
+                                        <p class='mb-0'>Birds (Aves) are a group of endothermic vertebrates,
+                                            characterised by feathers, toothless beaked jaws, the laying of
+                                            hard-shelled eggs, a high metabolic rate, a four-chambered heart,
+                                            and a strong yet lightweight skeleton.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 6 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto6.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto6.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Lions</h2>
+                                        <p class='mb-0'>The lion (Panthera leo) is a species in the family Felidae and a
+                                            member of the genus Panthera. It has been listed as Vulnerable on the IUCN 
+                                            Red List since 1996, as populations in African range countries declined by 
+                                            about 43% since the early 1990s.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 7 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto7.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto7.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Dogs</h2>
+                                        <p class='mb-0'>The domestic dog (Canis lupus familiaris or Canis familiaris)
+                                            is a member of the genus Canis (canines), which forms part of the wolf-like canids,
+                                            and is the most widely abundant terrestrial carnivore. The dog
+                                            and the extant gray wolf are sister taxa as modern wolves are not 
+                                            closely related to the wolves that were first domesticated, which implies
+                                            that the direct ancestor of the dog is extinct.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 8 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto8.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto8.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Fish</h2>
+                                        <p class='mb-0'>Fish are the gill-bearing aquatic craniate animals that lack limbs with digits.
+                                            They form a sister group to the tunicates, together forming the olfactores. Included in this
+                                            definition are the living hagfish, lampreys, and cartilaginous and bony fish as well as various extinct related groups.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 9 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto9.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto9.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>City</h2>
+                                        <p class='mb-0'>A city is a large human settlement. Cities generally
+                                            have extensive systems for housing, tranportation, sanitation,
+                                            utilities, land use, and communication. Their density facilitates 
+                                            interaction between people, government organizations and businesses,
+                                            sometimes benefiting different parties in the process.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
 
                             <!----------------- 10 PICTURE ------------------->
-                            <div class="col-12 col-lg-6 mt-4">
+                            <div class="col-12 col-lg-6 mt-4 jackInTheBox animated">
                                 <div class='myImgHover'>
-                                    <img id="myImg" src="img/galleryphoto10.jpg" alt="Lorem ipsum" >
+                                    <img class="myImg" src="img/galleryphoto10.jpg" alt="Lorem ipsum" >
                                     <div class="overlay">
-                                        <h2 class='mb-0'>Creative Design</h2>
+                                        <h2 class='mb-0'>Trains</h2>
+                                        <p class='mb-0'>A train is a form of rail transport consisting of a
+                                            series of connected vehicles that usually runs along a rail track
+                                            to transport cargo or passengers. Motive power is provided by a
+                                            separate locomotive or individual motors in self-propelled multiple
+                                            unit.</p>
                                     </div>
-                                </div>
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption">Lorem ipsum</div>
                                 </div>
                             </div>
 
