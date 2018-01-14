@@ -309,7 +309,7 @@ img.mh255{
 
 
 
-/* ------------------ GALLERY MODAL --------------------*/
+/* ------------------ GALLERY --------------------*/
 .myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -317,6 +317,7 @@ img.mh255{
 }
 .myImgHover{
     position: relative;
+    display: block;
 }
 .myImg:hover {
     opacity: 0.7;
